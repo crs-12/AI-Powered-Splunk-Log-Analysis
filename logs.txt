@@ -1,0 +1,1000 @@
+2025-07-15T08:00:00Z sshd[1000]: Failed password for admin from 45.77.12.91 port 39886
+2025-07-15T08:05:00Z sshd[1001]: Failed password for admin from 185.220.101.5 port 33164
+2025-07-15T08:10:00Z sshd[1002]: Failed password for admin from 203.0.113.55 port 36168
+2025-07-15T08:15:00Z sshd[1003]: Failed password for admin from 45.77.12.91 port 33801
+2025-07-15T08:20:00Z sshd[1004]: Accepted password for admin from 203.0.113.55 port 63255
+2025-07-15T08:25:00Z WINSEC EventID=4625 user=adoe host=DC01 FailureReason=BadPassword src=203.0.113.55
+2025-07-15T08:30:00Z WINSEC EventID=4740 Account Lockout user=finance1 caller=185.220.101.5
+2025-07-15T08:35:00Z firewall: Port scan detected src=203.0.113.55 dst=10.0.1.62
+2025-07-15T08:40:00Z Apache access 198.51.100.24 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-15T08:45:00Z Apache access 198.51.100.142 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-15T08:50:00Z EDR MalwareDetected host=FINANCE-PC-04 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-15T08:55:00Z DNS query src=10.0.2.212 query=data679.tunnel-example.net
+2025-07-15T09:00:00Z VPN User=jsmith Connected src=198.18.4.162
+2025-07-15T09:05:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-15T09:10:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-15T09:15:00Z Proxy user=svc_backup url=http://malware38.ru/payload.exe action=blocked
+2025-07-15T09:20:00Z AWSConsole Login user=jsmith srcip=185.220.101.5 result=Success
+2025-07-15T09:25:00Z DBAUDIT user=jsmith action=SELECT table=customers rows=500
+2025-07-15T09:30:00Z EDR LateralMovement host=WEB01 tool=psexec.exe target=10.0.5.12
+2025-07-15T09:35:00Z EmailGW Delivered sender=alerts@company.com recipient=hruser@corp.local
+2025-07-15T09:40:00Z sshd[1020]: Failed password for admin from 198.51.100.23 port 48979
+2025-07-15T09:45:00Z sshd[1021]: Failed password for admin from 185.220.101.5 port 39453
+2025-07-15T09:50:00Z sshd[1022]: Failed password for admin from 203.0.113.55 port 50216
+2025-07-15T09:55:00Z sshd[1023]: Failed password for admin from 198.51.100.23 port 36753
+2025-07-15T10:00:00Z sshd[1024]: Accepted password for admin from 203.0.113.55 port 42312
+2025-07-15T10:05:00Z WINSEC EventID=4625 user=bjones host=DC01 FailureReason=BadPassword src=203.0.113.55
+2025-07-15T10:10:00Z WINSEC EventID=4740 Account Lockout user=hruser caller=203.0.113.55
+2025-07-15T10:15:00Z firewall: Port scan detected src=198.51.100.23 dst=10.0.1.128
+2025-07-15T10:20:00Z Apache access 198.51.100.175 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-15T10:25:00Z Apache access 198.51.100.137 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-15T10:30:00Z EDR MalwareDetected host=FINANCE-PC-04 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-15T10:35:00Z DNS query src=10.0.11.120 query=data699.tunnel-example.net
+2025-07-15T10:40:00Z VPN User=finance1 Connected src=198.18.6.77
+2025-07-15T10:45:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-15T10:50:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-15T10:55:00Z Proxy user=adoe url=http://malware12.ru/payload.exe action=blocked
+2025-07-15T11:00:00Z AWSConsole Login user=svc_backup srcip=198.51.100.23 result=Success
+2025-07-15T11:05:00Z DBAUDIT user=jsmith action=SELECT table=customers rows=295
+2025-07-15T11:10:00Z EDR LateralMovement host=DB01 tool=psexec.exe target=10.0.5.135
+2025-07-15T11:15:00Z EmailGW Delivered sender=alerts@company.com recipient=finance1@corp.local
+2025-07-15T11:20:00Z sshd[1040]: Failed password for admin from 45.77.12.91 port 59414
+2025-07-15T11:25:00Z sshd[1041]: Failed password for admin from 45.77.12.91 port 34797
+2025-07-15T11:30:00Z sshd[1042]: Failed password for admin from 203.0.113.55 port 63550
+2025-07-15T11:35:00Z sshd[1043]: Failed password for admin from 185.220.101.5 port 40810
+2025-07-15T11:40:00Z sshd[1044]: Accepted password for admin from 203.0.113.55 port 52416
+2025-07-15T11:45:00Z WINSEC EventID=4625 user=adoe host=FINANCE-PC-04 FailureReason=BadPassword src=185.220.101.5
+2025-07-15T11:50:00Z WINSEC EventID=4740 Account Lockout user=jsmith caller=203.0.113.55
+2025-07-15T11:55:00Z firewall: Port scan detected src=45.77.12.91 dst=10.0.1.88
+2025-07-15T12:00:00Z Apache access 198.51.100.178 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-15T12:05:00Z Apache access 198.51.100.90 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-15T12:10:00Z EDR MalwareDetected host=VPNGW01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-15T12:15:00Z DNS query src=10.0.16.149 query=data916.tunnel-example.net
+2025-07-15T12:20:00Z VPN User=finance1 Connected src=198.18.2.216
+2025-07-15T12:25:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-15T12:30:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-15T12:35:00Z Proxy user=jsmith url=http://malware18.ru/payload.exe action=blocked
+2025-07-15T12:40:00Z AWSConsole Login user=finance1 srcip=203.0.113.55 result=Success
+2025-07-15T12:45:00Z DBAUDIT user=jsmith action=SELECT table=customers rows=375
+2025-07-15T12:50:00Z EDR LateralMovement host=LNXAPP01 tool=psexec.exe target=10.0.5.80
+2025-07-15T12:55:00Z EmailGW Delivered sender=alerts@company.com recipient=svc_backup@corp.local
+2025-07-15T13:00:00Z sshd[1060]: Failed password for admin from 185.220.101.5 port 48651
+2025-07-15T13:05:00Z sshd[1061]: Failed password for admin from 185.220.101.5 port 52741
+2025-07-15T13:10:00Z sshd[1062]: Failed password for admin from 203.0.113.55 port 60257
+2025-07-15T13:15:00Z sshd[1063]: Failed password for admin from 45.77.12.91 port 41013
+2025-07-15T13:20:00Z sshd[1064]: Accepted password for admin from 203.0.113.55 port 37673
+2025-07-15T13:25:00Z WINSEC EventID=4625 user=finance1 host=DC01 FailureReason=BadPassword src=198.51.100.23
+2025-07-15T13:30:00Z WINSEC EventID=4740 Account Lockout user=admin caller=45.77.12.91
+2025-07-15T13:35:00Z firewall: Port scan detected src=198.51.100.23 dst=10.0.1.190
+2025-07-15T13:40:00Z Apache access 198.51.100.64 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-15T13:45:00Z Apache access 198.51.100.102 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-15T13:50:00Z EDR MalwareDetected host=FINANCE-PC-04 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-15T13:55:00Z DNS query src=10.0.16.21 query=data270.tunnel-example.net
+2025-07-15T14:00:00Z VPN User=finance1 Connected src=198.18.7.141
+2025-07-15T14:05:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-15T14:10:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-15T14:15:00Z Proxy user=bjones url=http://malware9.ru/payload.exe action=blocked
+2025-07-15T14:20:00Z AWSConsole Login user=admin srcip=185.220.101.5 result=Success
+2025-07-15T14:25:00Z DBAUDIT user=admin action=SELECT table=customers rows=282
+2025-07-15T14:30:00Z EDR LateralMovement host=DB01 tool=psexec.exe target=10.0.5.181
+2025-07-15T14:35:00Z EmailGW Delivered sender=alerts@company.com recipient=finance1@corp.local
+2025-07-15T14:40:00Z sshd[1080]: Failed password for admin from 45.77.12.91 port 54932
+2025-07-15T14:45:00Z sshd[1081]: Failed password for admin from 198.51.100.23 port 39890
+2025-07-15T14:50:00Z sshd[1082]: Failed password for admin from 203.0.113.55 port 41548
+2025-07-15T14:55:00Z sshd[1083]: Failed password for admin from 198.51.100.23 port 45201
+2025-07-15T15:00:00Z sshd[1084]: Accepted password for admin from 203.0.113.55 port 45291
+2025-07-15T15:05:00Z WINSEC EventID=4625 user=jsmith host=FINANCE-PC-04 FailureReason=BadPassword src=198.51.100.23
+2025-07-15T15:10:00Z WINSEC EventID=4740 Account Lockout user=bjones caller=45.77.12.91
+2025-07-15T15:15:00Z firewall: Port scan detected src=203.0.113.55 dst=10.0.1.38
+2025-07-15T15:20:00Z Apache access 198.51.100.108 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-15T15:25:00Z Apache access 198.51.100.137 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-15T15:30:00Z EDR MalwareDetected host=DB01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-15T15:35:00Z DNS query src=10.0.20.145 query=data426.tunnel-example.net
+2025-07-15T15:40:00Z VPN User=adoe Connected src=198.18.9.244
+2025-07-15T15:45:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-15T15:50:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-15T15:55:00Z Proxy user=hruser url=http://malware42.ru/payload.exe action=blocked
+2025-07-15T16:00:00Z AWSConsole Login user=svc_backup srcip=203.0.113.55 result=Success
+2025-07-15T16:05:00Z DBAUDIT user=finance1 action=SELECT table=customers rows=461
+2025-07-15T16:10:00Z EDR LateralMovement host=LNXAPP01 tool=psexec.exe target=10.0.5.205
+2025-07-15T16:15:00Z EmailGW Delivered sender=alerts@company.com recipient=hruser@corp.local
+2025-07-15T16:20:00Z sshd[1100]: Failed password for admin from 185.220.101.5 port 56087
+2025-07-15T16:25:00Z sshd[1101]: Failed password for admin from 185.220.101.5 port 55829
+2025-07-15T16:30:00Z sshd[1102]: Failed password for admin from 203.0.113.55 port 61557
+2025-07-15T16:35:00Z sshd[1103]: Failed password for admin from 185.220.101.5 port 34079
+2025-07-15T16:40:00Z sshd[1104]: Accepted password for admin from 203.0.113.55 port 42491
+2025-07-15T16:45:00Z WINSEC EventID=4625 user=jsmith host=WEB01 FailureReason=BadPassword src=185.220.101.5
+2025-07-15T16:50:00Z WINSEC EventID=4740 Account Lockout user=adoe caller=203.0.113.55
+2025-07-15T16:55:00Z firewall: Port scan detected src=45.77.12.91 dst=10.0.1.154
+2025-07-15T17:00:00Z Apache access 198.51.100.14 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-15T17:05:00Z Apache access 198.51.100.27 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-15T17:10:00Z EDR MalwareDetected host=DC01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-15T17:15:00Z DNS query src=10.0.19.39 query=data649.tunnel-example.net
+2025-07-15T17:20:00Z VPN User=jsmith Connected src=198.18.6.158
+2025-07-15T17:25:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-15T17:30:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-15T17:35:00Z Proxy user=jsmith url=http://malware5.ru/payload.exe action=blocked
+2025-07-15T17:40:00Z AWSConsole Login user=admin srcip=198.51.100.23 result=Success
+2025-07-15T17:45:00Z DBAUDIT user=hruser action=SELECT table=customers rows=193
+2025-07-15T17:50:00Z EDR LateralMovement host=WEB01 tool=psexec.exe target=10.0.5.163
+2025-07-15T17:55:00Z EmailGW Delivered sender=alerts@company.com recipient=bjones@corp.local
+2025-07-15T18:00:00Z sshd[1120]: Failed password for admin from 45.77.12.91 port 53865
+2025-07-15T18:05:00Z sshd[1121]: Failed password for admin from 185.220.101.5 port 38050
+2025-07-15T18:10:00Z sshd[1122]: Failed password for admin from 203.0.113.55 port 61986
+2025-07-15T18:15:00Z sshd[1123]: Failed password for admin from 185.220.101.5 port 61483
+2025-07-15T18:20:00Z sshd[1124]: Accepted password for admin from 203.0.113.55 port 61708
+2025-07-15T18:25:00Z WINSEC EventID=4625 user=bjones host=DC01 FailureReason=BadPassword src=198.51.100.23
+2025-07-15T18:30:00Z WINSEC EventID=4740 Account Lockout user=jsmith caller=45.77.12.91
+2025-07-15T18:35:00Z firewall: Port scan detected src=45.77.12.91 dst=10.0.1.123
+2025-07-15T18:40:00Z Apache access 198.51.100.213 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-15T18:45:00Z Apache access 198.51.100.178 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-15T18:50:00Z EDR MalwareDetected host=WEB01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-15T18:55:00Z DNS query src=10.0.17.6 query=data310.tunnel-example.net
+2025-07-15T19:00:00Z VPN User=hruser Connected src=198.18.6.38
+2025-07-15T19:05:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-15T19:10:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-15T19:15:00Z Proxy user=svc_backup url=http://malware35.ru/payload.exe action=blocked
+2025-07-15T19:20:00Z AWSConsole Login user=jsmith srcip=45.77.12.91 result=Success
+2025-07-15T19:25:00Z DBAUDIT user=svc_backup action=SELECT table=customers rows=443
+2025-07-15T19:30:00Z EDR LateralMovement host=DC01 tool=psexec.exe target=10.0.5.179
+2025-07-15T19:35:00Z EmailGW Delivered sender=alerts@company.com recipient=admin@corp.local
+2025-07-15T19:40:00Z sshd[1140]: Failed password for admin from 45.77.12.91 port 63973
+2025-07-15T19:45:00Z sshd[1141]: Failed password for admin from 45.77.12.91 port 40947
+2025-07-15T19:50:00Z sshd[1142]: Failed password for admin from 45.77.12.91 port 44600
+2025-07-15T19:55:00Z sshd[1143]: Failed password for admin from 45.77.12.91 port 44617
+2025-07-15T20:00:00Z sshd[1144]: Accepted password for admin from 203.0.113.55 port 42789
+2025-07-15T20:05:00Z WINSEC EventID=4625 user=admin host=WEB01 FailureReason=BadPassword src=185.220.101.5
+2025-07-15T20:10:00Z WINSEC EventID=4740 Account Lockout user=svc_backup caller=198.51.100.23
+2025-07-15T20:15:00Z firewall: Port scan detected src=198.51.100.23 dst=10.0.1.133
+2025-07-15T20:20:00Z Apache access 198.51.100.127 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-15T20:25:00Z Apache access 198.51.100.92 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-15T20:30:00Z EDR MalwareDetected host=LNXAPP01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-15T20:35:00Z DNS query src=10.0.1.254 query=data128.tunnel-example.net
+2025-07-15T20:40:00Z VPN User=admin Connected src=198.18.5.121
+2025-07-15T20:45:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-15T20:50:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-15T20:55:00Z Proxy user=bjones url=http://malware13.ru/payload.exe action=blocked
+2025-07-15T21:00:00Z AWSConsole Login user=svc_backup srcip=45.77.12.91 result=Success
+2025-07-15T21:05:00Z DBAUDIT user=finance1 action=SELECT table=customers rows=414
+2025-07-15T21:10:00Z EDR LateralMovement host=LNXAPP01 tool=psexec.exe target=10.0.5.253
+2025-07-15T21:15:00Z EmailGW Delivered sender=alerts@company.com recipient=bjones@corp.local
+2025-07-15T21:20:00Z sshd[1160]: Failed password for admin from 45.77.12.91 port 35278
+2025-07-15T21:25:00Z sshd[1161]: Failed password for admin from 198.51.100.23 port 36694
+2025-07-15T21:30:00Z sshd[1162]: Failed password for admin from 198.51.100.23 port 60807
+2025-07-15T21:35:00Z sshd[1163]: Failed password for admin from 198.51.100.23 port 52133
+2025-07-15T21:40:00Z sshd[1164]: Accepted password for admin from 203.0.113.55 port 43393
+2025-07-15T21:45:00Z WINSEC EventID=4625 user=finance1 host=VPNGW01 FailureReason=BadPassword src=203.0.113.55
+2025-07-15T21:50:00Z WINSEC EventID=4740 Account Lockout user=finance1 caller=45.77.12.91
+2025-07-15T21:55:00Z firewall: Port scan detected src=203.0.113.55 dst=10.0.1.214
+2025-07-15T22:00:00Z Apache access 198.51.100.170 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-15T22:05:00Z Apache access 198.51.100.31 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-15T22:10:00Z EDR MalwareDetected host=FINANCE-PC-04 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-15T22:15:00Z DNS query src=10.0.7.123 query=data282.tunnel-example.net
+2025-07-15T22:20:00Z VPN User=finance1 Connected src=198.18.6.23
+2025-07-15T22:25:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-15T22:30:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-15T22:35:00Z Proxy user=admin url=http://malware47.ru/payload.exe action=blocked
+2025-07-15T22:40:00Z AWSConsole Login user=finance1 srcip=185.220.101.5 result=Success
+2025-07-15T22:45:00Z DBAUDIT user=finance1 action=SELECT table=customers rows=381
+2025-07-15T22:50:00Z EDR LateralMovement host=DC01 tool=psexec.exe target=10.0.5.186
+2025-07-15T22:55:00Z EmailGW Delivered sender=alerts@company.com recipient=adoe@corp.local
+2025-07-15T23:00:00Z sshd[1180]: Failed password for admin from 198.51.100.23 port 38325
+2025-07-15T23:05:00Z sshd[1181]: Failed password for admin from 203.0.113.55 port 39905
+2025-07-15T23:10:00Z sshd[1182]: Failed password for admin from 185.220.101.5 port 39579
+2025-07-15T23:15:00Z sshd[1183]: Failed password for admin from 185.220.101.5 port 52964
+2025-07-15T23:20:00Z sshd[1184]: Accepted password for admin from 203.0.113.55 port 40217
+2025-07-15T23:25:00Z WINSEC EventID=4625 user=hruser host=VPNGW01 FailureReason=BadPassword src=198.51.100.23
+2025-07-15T23:30:00Z WINSEC EventID=4740 Account Lockout user=jsmith caller=203.0.113.55
+2025-07-15T23:35:00Z firewall: Port scan detected src=203.0.113.55 dst=10.0.1.135
+2025-07-15T23:40:00Z Apache access 198.51.100.192 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-15T23:45:00Z Apache access 198.51.100.240 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-15T23:50:00Z EDR MalwareDetected host=WEB01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-15T23:55:00Z DNS query src=10.0.14.253 query=data992.tunnel-example.net
+2025-07-16T00:00:00Z VPN User=adoe Connected src=198.18.4.8
+2025-07-16T00:05:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-16T00:10:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-16T00:15:00Z Proxy user=bjones url=http://malware14.ru/payload.exe action=blocked
+2025-07-16T00:20:00Z AWSConsole Login user=bjones srcip=198.51.100.23 result=Success
+2025-07-16T00:25:00Z DBAUDIT user=admin action=SELECT table=customers rows=301
+2025-07-16T00:30:00Z EDR LateralMovement host=DB01 tool=psexec.exe target=10.0.5.67
+2025-07-16T00:35:00Z EmailGW Delivered sender=alerts@company.com recipient=hruser@corp.local
+2025-07-16T00:40:00Z sshd[1200]: Failed password for admin from 185.220.101.5 port 38590
+2025-07-16T00:45:00Z sshd[1201]: Failed password for admin from 203.0.113.55 port 53185
+2025-07-16T00:50:00Z sshd[1202]: Failed password for admin from 185.220.101.5 port 63866
+2025-07-16T00:55:00Z sshd[1203]: Failed password for admin from 185.220.101.5 port 62876
+2025-07-16T01:00:00Z sshd[1204]: Accepted password for admin from 203.0.113.55 port 38569
+2025-07-16T01:05:00Z WINSEC EventID=4625 user=hruser host=WEB01 FailureReason=BadPassword src=203.0.113.55
+2025-07-16T01:10:00Z WINSEC EventID=4740 Account Lockout user=admin caller=185.220.101.5
+2025-07-16T01:15:00Z firewall: Port scan detected src=198.51.100.23 dst=10.0.1.156
+2025-07-16T01:20:00Z Apache access 198.51.100.2 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-16T01:25:00Z Apache access 198.51.100.199 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-16T01:30:00Z EDR MalwareDetected host=WEB01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-16T01:35:00Z DNS query src=10.0.6.37 query=data584.tunnel-example.net
+2025-07-16T01:40:00Z VPN User=hruser Connected src=198.18.2.143
+2025-07-16T01:45:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-16T01:50:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-16T01:55:00Z Proxy user=jsmith url=http://malware21.ru/payload.exe action=blocked
+2025-07-16T02:00:00Z AWSConsole Login user=svc_backup srcip=185.220.101.5 result=Success
+2025-07-16T02:05:00Z DBAUDIT user=admin action=SELECT table=customers rows=398
+2025-07-16T02:10:00Z EDR LateralMovement host=DC01 tool=psexec.exe target=10.0.5.227
+2025-07-16T02:15:00Z EmailGW Delivered sender=alerts@company.com recipient=hruser@corp.local
+2025-07-16T02:20:00Z sshd[1220]: Failed password for admin from 203.0.113.55 port 46285
+2025-07-16T02:25:00Z sshd[1221]: Failed password for admin from 198.51.100.23 port 48148
+2025-07-16T02:30:00Z sshd[1222]: Failed password for admin from 203.0.113.55 port 36405
+2025-07-16T02:35:00Z sshd[1223]: Failed password for admin from 185.220.101.5 port 31826
+2025-07-16T02:40:00Z sshd[1224]: Accepted password for admin from 203.0.113.55 port 34152
+2025-07-16T02:45:00Z WINSEC EventID=4625 user=finance1 host=DB01 FailureReason=BadPassword src=198.51.100.23
+2025-07-16T02:50:00Z WINSEC EventID=4740 Account Lockout user=svc_backup caller=45.77.12.91
+2025-07-16T02:55:00Z firewall: Port scan detected src=185.220.101.5 dst=10.0.1.131
+2025-07-16T03:00:00Z Apache access 198.51.100.137 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-16T03:05:00Z Apache access 198.51.100.207 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-16T03:10:00Z EDR MalwareDetected host=FINANCE-PC-04 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-16T03:15:00Z DNS query src=10.0.17.242 query=data353.tunnel-example.net
+2025-07-16T03:20:00Z VPN User=svc_backup Connected src=198.18.9.225
+2025-07-16T03:25:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-16T03:30:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-16T03:35:00Z Proxy user=bjones url=http://malware36.ru/payload.exe action=blocked
+2025-07-16T03:40:00Z AWSConsole Login user=adoe srcip=185.220.101.5 result=Success
+2025-07-16T03:45:00Z DBAUDIT user=adoe action=SELECT table=customers rows=214
+2025-07-16T03:50:00Z EDR LateralMovement host=DC01 tool=psexec.exe target=10.0.5.101
+2025-07-16T03:55:00Z EmailGW Delivered sender=alerts@company.com recipient=finance1@corp.local
+2025-07-16T04:00:00Z sshd[1240]: Failed password for admin from 45.77.12.91 port 34754
+2025-07-16T04:05:00Z sshd[1241]: Failed password for admin from 198.51.100.23 port 58071
+2025-07-16T04:10:00Z sshd[1242]: Failed password for admin from 203.0.113.55 port 43938
+2025-07-16T04:15:00Z sshd[1243]: Failed password for admin from 45.77.12.91 port 38018
+2025-07-16T04:20:00Z sshd[1244]: Accepted password for admin from 203.0.113.55 port 40121
+2025-07-16T04:25:00Z WINSEC EventID=4625 user=svc_backup host=LNXAPP01 FailureReason=BadPassword src=45.77.12.91
+2025-07-16T04:30:00Z WINSEC EventID=4740 Account Lockout user=adoe caller=45.77.12.91
+2025-07-16T04:35:00Z firewall: Port scan detected src=198.51.100.23 dst=10.0.1.248
+2025-07-16T04:40:00Z Apache access 198.51.100.120 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-16T04:45:00Z Apache access 198.51.100.57 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-16T04:50:00Z EDR MalwareDetected host=LNXAPP01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-16T04:55:00Z DNS query src=10.0.4.102 query=data598.tunnel-example.net
+2025-07-16T05:00:00Z VPN User=adoe Connected src=198.18.4.42
+2025-07-16T05:05:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-16T05:10:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-16T05:15:00Z Proxy user=svc_backup url=http://malware28.ru/payload.exe action=blocked
+2025-07-16T05:20:00Z AWSConsole Login user=hruser srcip=185.220.101.5 result=Success
+2025-07-16T05:25:00Z DBAUDIT user=bjones action=SELECT table=customers rows=216
+2025-07-16T05:30:00Z EDR LateralMovement host=WEB01 tool=psexec.exe target=10.0.5.92
+2025-07-16T05:35:00Z EmailGW Delivered sender=alerts@company.com recipient=bjones@corp.local
+2025-07-16T05:40:00Z sshd[1260]: Failed password for admin from 203.0.113.55 port 53983
+2025-07-16T05:45:00Z sshd[1261]: Failed password for admin from 203.0.113.55 port 52149
+2025-07-16T05:50:00Z sshd[1262]: Failed password for admin from 185.220.101.5 port 58865
+2025-07-16T05:55:00Z sshd[1263]: Failed password for admin from 203.0.113.55 port 55188
+2025-07-16T06:00:00Z sshd[1264]: Accepted password for admin from 203.0.113.55 port 51725
+2025-07-16T06:05:00Z WINSEC EventID=4625 user=hruser host=VPNGW01 FailureReason=BadPassword src=45.77.12.91
+2025-07-16T06:10:00Z WINSEC EventID=4740 Account Lockout user=hruser caller=203.0.113.55
+2025-07-16T06:15:00Z firewall: Port scan detected src=203.0.113.55 dst=10.0.1.253
+2025-07-16T06:20:00Z Apache access 198.51.100.236 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-16T06:25:00Z Apache access 198.51.100.202 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-16T06:30:00Z EDR MalwareDetected host=WEB01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-16T06:35:00Z DNS query src=10.0.4.22 query=data371.tunnel-example.net
+2025-07-16T06:40:00Z VPN User=bjones Connected src=198.18.1.232
+2025-07-16T06:45:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-16T06:50:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-16T06:55:00Z Proxy user=admin url=http://malware12.ru/payload.exe action=blocked
+2025-07-16T07:00:00Z AWSConsole Login user=bjones srcip=198.51.100.23 result=Success
+2025-07-16T07:05:00Z DBAUDIT user=admin action=SELECT table=customers rows=217
+2025-07-16T07:10:00Z EDR LateralMovement host=LNXAPP01 tool=psexec.exe target=10.0.5.210
+2025-07-16T07:15:00Z EmailGW Delivered sender=alerts@company.com recipient=bjones@corp.local
+2025-07-16T07:20:00Z sshd[1280]: Failed password for admin from 185.220.101.5 port 39788
+2025-07-16T07:25:00Z sshd[1281]: Failed password for admin from 185.220.101.5 port 51433
+2025-07-16T07:30:00Z sshd[1282]: Failed password for admin from 203.0.113.55 port 48288
+2025-07-16T07:35:00Z sshd[1283]: Failed password for admin from 203.0.113.55 port 42015
+2025-07-16T07:40:00Z sshd[1284]: Accepted password for admin from 203.0.113.55 port 57873
+2025-07-16T07:45:00Z WINSEC EventID=4625 user=jsmith host=DB01 FailureReason=BadPassword src=203.0.113.55
+2025-07-16T07:50:00Z WINSEC EventID=4740 Account Lockout user=svc_backup caller=203.0.113.55
+2025-07-16T07:55:00Z firewall: Port scan detected src=45.77.12.91 dst=10.0.1.22
+2025-07-16T08:00:00Z Apache access 198.51.100.156 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-16T08:05:00Z Apache access 198.51.100.220 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-16T08:10:00Z EDR MalwareDetected host=WEB01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-16T08:15:00Z DNS query src=10.0.3.68 query=data983.tunnel-example.net
+2025-07-16T08:20:00Z VPN User=jsmith Connected src=198.18.8.3
+2025-07-16T08:25:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-16T08:30:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-16T08:35:00Z Proxy user=bjones url=http://malware36.ru/payload.exe action=blocked
+2025-07-16T08:40:00Z AWSConsole Login user=finance1 srcip=45.77.12.91 result=Success
+2025-07-16T08:45:00Z DBAUDIT user=hruser action=SELECT table=customers rows=67
+2025-07-16T08:50:00Z EDR LateralMovement host=DC01 tool=psexec.exe target=10.0.5.135
+2025-07-16T08:55:00Z EmailGW Delivered sender=alerts@company.com recipient=svc_backup@corp.local
+2025-07-16T09:00:00Z sshd[1300]: Failed password for admin from 198.51.100.23 port 37173
+2025-07-16T09:05:00Z sshd[1301]: Failed password for admin from 198.51.100.23 port 47163
+2025-07-16T09:10:00Z sshd[1302]: Failed password for admin from 203.0.113.55 port 41871
+2025-07-16T09:15:00Z sshd[1303]: Failed password for admin from 198.51.100.23 port 50446
+2025-07-16T09:20:00Z sshd[1304]: Accepted password for admin from 203.0.113.55 port 49988
+2025-07-16T09:25:00Z WINSEC EventID=4625 user=hruser host=WEB01 FailureReason=BadPassword src=45.77.12.91
+2025-07-16T09:30:00Z WINSEC EventID=4740 Account Lockout user=finance1 caller=198.51.100.23
+2025-07-16T09:35:00Z firewall: Port scan detected src=45.77.12.91 dst=10.0.1.89
+2025-07-16T09:40:00Z Apache access 198.51.100.206 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-16T09:45:00Z Apache access 198.51.100.5 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-16T09:50:00Z EDR MalwareDetected host=DB01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-16T09:55:00Z DNS query src=10.0.2.4 query=data118.tunnel-example.net
+2025-07-16T10:00:00Z VPN User=svc_backup Connected src=198.18.9.142
+2025-07-16T10:05:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-16T10:10:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-16T10:15:00Z Proxy user=adoe url=http://malware33.ru/payload.exe action=blocked
+2025-07-16T10:20:00Z AWSConsole Login user=finance1 srcip=198.51.100.23 result=Success
+2025-07-16T10:25:00Z DBAUDIT user=finance1 action=SELECT table=customers rows=55
+2025-07-16T10:30:00Z EDR LateralMovement host=LNXAPP01 tool=psexec.exe target=10.0.5.210
+2025-07-16T10:35:00Z EmailGW Delivered sender=alerts@company.com recipient=svc_backup@corp.local
+2025-07-16T10:40:00Z sshd[1320]: Failed password for admin from 185.220.101.5 port 62440
+2025-07-16T10:45:00Z sshd[1321]: Failed password for admin from 185.220.101.5 port 63206
+2025-07-16T10:50:00Z sshd[1322]: Failed password for admin from 45.77.12.91 port 44102
+2025-07-16T10:55:00Z sshd[1323]: Failed password for admin from 198.51.100.23 port 52459
+2025-07-16T11:00:00Z sshd[1324]: Accepted password for admin from 203.0.113.55 port 43017
+2025-07-16T11:05:00Z WINSEC EventID=4625 user=admin host=LNXAPP01 FailureReason=BadPassword src=198.51.100.23
+2025-07-16T11:10:00Z WINSEC EventID=4740 Account Lockout user=finance1 caller=45.77.12.91
+2025-07-16T11:15:00Z firewall: Port scan detected src=203.0.113.55 dst=10.0.1.215
+2025-07-16T11:20:00Z Apache access 198.51.100.34 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-16T11:25:00Z Apache access 198.51.100.4 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-16T11:30:00Z EDR MalwareDetected host=DC01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-16T11:35:00Z DNS query src=10.0.9.111 query=data267.tunnel-example.net
+2025-07-16T11:40:00Z VPN User=jsmith Connected src=198.18.2.171
+2025-07-16T11:45:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-16T11:50:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-16T11:55:00Z Proxy user=admin url=http://malware25.ru/payload.exe action=blocked
+2025-07-16T12:00:00Z AWSConsole Login user=admin srcip=45.77.12.91 result=Success
+2025-07-16T12:05:00Z DBAUDIT user=hruser action=SELECT table=customers rows=125
+2025-07-16T12:10:00Z EDR LateralMovement host=LNXAPP01 tool=psexec.exe target=10.0.5.76
+2025-07-16T12:15:00Z EmailGW Delivered sender=alerts@company.com recipient=jsmith@corp.local
+2025-07-16T12:20:00Z sshd[1340]: Failed password for admin from 185.220.101.5 port 42147
+2025-07-16T12:25:00Z sshd[1341]: Failed password for admin from 198.51.100.23 port 47631
+2025-07-16T12:30:00Z sshd[1342]: Failed password for admin from 185.220.101.5 port 30237
+2025-07-16T12:35:00Z sshd[1343]: Failed password for admin from 45.77.12.91 port 53864
+2025-07-16T12:40:00Z sshd[1344]: Accepted password for admin from 203.0.113.55 port 51556
+2025-07-16T12:45:00Z WINSEC EventID=4625 user=hruser host=DB01 FailureReason=BadPassword src=198.51.100.23
+2025-07-16T12:50:00Z WINSEC EventID=4740 Account Lockout user=jsmith caller=45.77.12.91
+2025-07-16T12:55:00Z firewall: Port scan detected src=198.51.100.23 dst=10.0.1.92
+2025-07-16T13:00:00Z Apache access 198.51.100.47 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-16T13:05:00Z Apache access 198.51.100.1 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-16T13:10:00Z EDR MalwareDetected host=DB01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-16T13:15:00Z DNS query src=10.0.13.22 query=data586.tunnel-example.net
+2025-07-16T13:20:00Z VPN User=bjones Connected src=198.18.9.168
+2025-07-16T13:25:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-16T13:30:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-16T13:35:00Z Proxy user=adoe url=http://malware16.ru/payload.exe action=blocked
+2025-07-16T13:40:00Z AWSConsole Login user=hruser srcip=203.0.113.55 result=Success
+2025-07-16T13:45:00Z DBAUDIT user=jsmith action=SELECT table=customers rows=136
+2025-07-16T13:50:00Z EDR LateralMovement host=DC01 tool=psexec.exe target=10.0.5.37
+2025-07-16T13:55:00Z EmailGW Delivered sender=alerts@company.com recipient=finance1@corp.local
+2025-07-16T14:00:00Z sshd[1360]: Failed password for admin from 203.0.113.55 port 55819
+2025-07-16T14:05:00Z sshd[1361]: Failed password for admin from 203.0.113.55 port 49637
+2025-07-16T14:10:00Z sshd[1362]: Failed password for admin from 45.77.12.91 port 45257
+2025-07-16T14:15:00Z sshd[1363]: Failed password for admin from 203.0.113.55 port 64680
+2025-07-16T14:20:00Z sshd[1364]: Accepted password for admin from 203.0.113.55 port 40174
+2025-07-16T14:25:00Z WINSEC EventID=4625 user=svc_backup host=LNXAPP01 FailureReason=BadPassword src=185.220.101.5
+2025-07-16T14:30:00Z WINSEC EventID=4740 Account Lockout user=admin caller=45.77.12.91
+2025-07-16T14:35:00Z firewall: Port scan detected src=185.220.101.5 dst=10.0.1.39
+2025-07-16T14:40:00Z Apache access 198.51.100.73 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-16T14:45:00Z Apache access 198.51.100.186 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-16T14:50:00Z EDR MalwareDetected host=VPNGW01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-16T14:55:00Z DNS query src=10.0.5.12 query=data944.tunnel-example.net
+2025-07-16T15:00:00Z VPN User=admin Connected src=198.18.9.161
+2025-07-16T15:05:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-16T15:10:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-16T15:15:00Z Proxy user=finance1 url=http://malware47.ru/payload.exe action=blocked
+2025-07-16T15:20:00Z AWSConsole Login user=svc_backup srcip=198.51.100.23 result=Success
+2025-07-16T15:25:00Z DBAUDIT user=hruser action=SELECT table=customers rows=386
+2025-07-16T15:30:00Z EDR LateralMovement host=VPNGW01 tool=psexec.exe target=10.0.5.146
+2025-07-16T15:35:00Z EmailGW Delivered sender=alerts@company.com recipient=admin@corp.local
+2025-07-16T15:40:00Z sshd[1380]: Failed password for admin from 203.0.113.55 port 45069
+2025-07-16T15:45:00Z sshd[1381]: Failed password for admin from 203.0.113.55 port 32042
+2025-07-16T15:50:00Z sshd[1382]: Failed password for admin from 203.0.113.55 port 38722
+2025-07-16T15:55:00Z sshd[1383]: Failed password for admin from 45.77.12.91 port 36875
+2025-07-16T16:00:00Z sshd[1384]: Accepted password for admin from 203.0.113.55 port 54682
+2025-07-16T16:05:00Z WINSEC EventID=4625 user=admin host=FINANCE-PC-04 FailureReason=BadPassword src=203.0.113.55
+2025-07-16T16:10:00Z WINSEC EventID=4740 Account Lockout user=svc_backup caller=203.0.113.55
+2025-07-16T16:15:00Z firewall: Port scan detected src=198.51.100.23 dst=10.0.1.126
+2025-07-16T16:20:00Z Apache access 198.51.100.68 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-16T16:25:00Z Apache access 198.51.100.1 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-16T16:30:00Z EDR MalwareDetected host=FINANCE-PC-04 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-16T16:35:00Z DNS query src=10.0.3.192 query=data615.tunnel-example.net
+2025-07-16T16:40:00Z VPN User=hruser Connected src=198.18.2.169
+2025-07-16T16:45:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-16T16:50:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-16T16:55:00Z Proxy user=hruser url=http://malware5.ru/payload.exe action=blocked
+2025-07-16T17:00:00Z AWSConsole Login user=svc_backup srcip=185.220.101.5 result=Success
+2025-07-16T17:05:00Z DBAUDIT user=bjones action=SELECT table=customers rows=415
+2025-07-16T17:10:00Z EDR LateralMovement host=DC01 tool=psexec.exe target=10.0.5.217
+2025-07-16T17:15:00Z EmailGW Delivered sender=alerts@company.com recipient=bjones@corp.local
+2025-07-16T17:20:00Z sshd[1400]: Failed password for admin from 198.51.100.23 port 43449
+2025-07-16T17:25:00Z sshd[1401]: Failed password for admin from 198.51.100.23 port 60168
+2025-07-16T17:30:00Z sshd[1402]: Failed password for admin from 185.220.101.5 port 55071
+2025-07-16T17:35:00Z sshd[1403]: Failed password for admin from 203.0.113.55 port 61392
+2025-07-16T17:40:00Z sshd[1404]: Accepted password for admin from 203.0.113.55 port 48829
+2025-07-16T17:45:00Z WINSEC EventID=4625 user=admin host=DC01 FailureReason=BadPassword src=198.51.100.23
+2025-07-16T17:50:00Z WINSEC EventID=4740 Account Lockout user=jsmith caller=198.51.100.23
+2025-07-16T17:55:00Z firewall: Port scan detected src=45.77.12.91 dst=10.0.1.66
+2025-07-16T18:00:00Z Apache access 198.51.100.167 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-16T18:05:00Z Apache access 198.51.100.191 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-16T18:10:00Z EDR MalwareDetected host=LNXAPP01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-16T18:15:00Z DNS query src=10.0.10.160 query=data681.tunnel-example.net
+2025-07-16T18:20:00Z VPN User=adoe Connected src=198.18.1.124
+2025-07-16T18:25:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-16T18:30:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-16T18:35:00Z Proxy user=jsmith url=http://malware32.ru/payload.exe action=blocked
+2025-07-16T18:40:00Z AWSConsole Login user=bjones srcip=203.0.113.55 result=Success
+2025-07-16T18:45:00Z DBAUDIT user=svc_backup action=SELECT table=customers rows=112
+2025-07-16T18:50:00Z EDR LateralMovement host=LNXAPP01 tool=psexec.exe target=10.0.5.126
+2025-07-16T18:55:00Z EmailGW Delivered sender=alerts@company.com recipient=bjones@corp.local
+2025-07-16T19:00:00Z sshd[1420]: Failed password for admin from 45.77.12.91 port 60452
+2025-07-16T19:05:00Z sshd[1421]: Failed password for admin from 185.220.101.5 port 60562
+2025-07-16T19:10:00Z sshd[1422]: Failed password for admin from 203.0.113.55 port 43058
+2025-07-16T19:15:00Z sshd[1423]: Failed password for admin from 45.77.12.91 port 35626
+2025-07-16T19:20:00Z sshd[1424]: Accepted password for admin from 203.0.113.55 port 60994
+2025-07-16T19:25:00Z WINSEC EventID=4625 user=jsmith host=DB01 FailureReason=BadPassword src=185.220.101.5
+2025-07-16T19:30:00Z WINSEC EventID=4740 Account Lockout user=jsmith caller=185.220.101.5
+2025-07-16T19:35:00Z firewall: Port scan detected src=45.77.12.91 dst=10.0.1.100
+2025-07-16T19:40:00Z Apache access 198.51.100.54 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-16T19:45:00Z Apache access 198.51.100.235 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-16T19:50:00Z EDR MalwareDetected host=WEB01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-16T19:55:00Z DNS query src=10.0.3.149 query=data192.tunnel-example.net
+2025-07-16T20:00:00Z VPN User=adoe Connected src=198.18.9.68
+2025-07-16T20:05:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-16T20:10:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-16T20:15:00Z Proxy user=bjones url=http://malware9.ru/payload.exe action=blocked
+2025-07-16T20:20:00Z AWSConsole Login user=hruser srcip=45.77.12.91 result=Success
+2025-07-16T20:25:00Z DBAUDIT user=jsmith action=SELECT table=customers rows=361
+2025-07-16T20:30:00Z EDR LateralMovement host=DB01 tool=psexec.exe target=10.0.5.60
+2025-07-16T20:35:00Z EmailGW Delivered sender=alerts@company.com recipient=finance1@corp.local
+2025-07-16T20:40:00Z sshd[1440]: Failed password for admin from 185.220.101.5 port 55826
+2025-07-16T20:45:00Z sshd[1441]: Failed password for admin from 203.0.113.55 port 40424
+2025-07-16T20:50:00Z sshd[1442]: Failed password for admin from 203.0.113.55 port 62223
+2025-07-16T20:55:00Z sshd[1443]: Failed password for admin from 185.220.101.5 port 56569
+2025-07-16T21:00:00Z sshd[1444]: Accepted password for admin from 203.0.113.55 port 49788
+2025-07-16T21:05:00Z WINSEC EventID=4625 user=svc_backup host=WEB01 FailureReason=BadPassword src=185.220.101.5
+2025-07-16T21:10:00Z WINSEC EventID=4740 Account Lockout user=bjones caller=185.220.101.5
+2025-07-16T21:15:00Z firewall: Port scan detected src=45.77.12.91 dst=10.0.1.31
+2025-07-16T21:20:00Z Apache access 198.51.100.216 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-16T21:25:00Z Apache access 198.51.100.85 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-16T21:30:00Z EDR MalwareDetected host=DC01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-16T21:35:00Z DNS query src=10.0.11.193 query=data446.tunnel-example.net
+2025-07-16T21:40:00Z VPN User=admin Connected src=198.18.7.31
+2025-07-16T21:45:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-16T21:50:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-16T21:55:00Z Proxy user=adoe url=http://malware46.ru/payload.exe action=blocked
+2025-07-16T22:00:00Z AWSConsole Login user=jsmith srcip=45.77.12.91 result=Success
+2025-07-16T22:05:00Z DBAUDIT user=bjones action=SELECT table=customers rows=191
+2025-07-16T22:10:00Z EDR LateralMovement host=DC01 tool=psexec.exe target=10.0.5.101
+2025-07-16T22:15:00Z EmailGW Delivered sender=alerts@company.com recipient=finance1@corp.local
+2025-07-16T22:20:00Z sshd[1460]: Failed password for admin from 203.0.113.55 port 53639
+2025-07-16T22:25:00Z sshd[1461]: Failed password for admin from 185.220.101.5 port 48032
+2025-07-16T22:30:00Z sshd[1462]: Failed password for admin from 203.0.113.55 port 48391
+2025-07-16T22:35:00Z sshd[1463]: Failed password for admin from 203.0.113.55 port 33382
+2025-07-16T22:40:00Z sshd[1464]: Accepted password for admin from 203.0.113.55 port 48718
+2025-07-16T22:45:00Z WINSEC EventID=4625 user=svc_backup host=WEB01 FailureReason=BadPassword src=198.51.100.23
+2025-07-16T22:50:00Z WINSEC EventID=4740 Account Lockout user=bjones caller=185.220.101.5
+2025-07-16T22:55:00Z firewall: Port scan detected src=45.77.12.91 dst=10.0.1.49
+2025-07-16T23:00:00Z Apache access 198.51.100.198 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-16T23:05:00Z Apache access 198.51.100.96 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-16T23:10:00Z EDR MalwareDetected host=FINANCE-PC-04 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-16T23:15:00Z DNS query src=10.0.1.208 query=data879.tunnel-example.net
+2025-07-16T23:20:00Z VPN User=svc_backup Connected src=198.18.7.234
+2025-07-16T23:25:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-16T23:30:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-16T23:35:00Z Proxy user=hruser url=http://malware36.ru/payload.exe action=blocked
+2025-07-16T23:40:00Z AWSConsole Login user=adoe srcip=203.0.113.55 result=Success
+2025-07-16T23:45:00Z DBAUDIT user=jsmith action=SELECT table=customers rows=478
+2025-07-16T23:50:00Z EDR LateralMovement host=LNXAPP01 tool=psexec.exe target=10.0.5.106
+2025-07-16T23:55:00Z EmailGW Delivered sender=alerts@company.com recipient=finance1@corp.local
+2025-07-17T00:00:00Z sshd[1480]: Failed password for admin from 198.51.100.23 port 48756
+2025-07-17T00:05:00Z sshd[1481]: Failed password for admin from 185.220.101.5 port 33209
+2025-07-17T00:10:00Z sshd[1482]: Failed password for admin from 198.51.100.23 port 41191
+2025-07-17T00:15:00Z sshd[1483]: Failed password for admin from 185.220.101.5 port 57188
+2025-07-17T00:20:00Z sshd[1484]: Accepted password for admin from 203.0.113.55 port 52522
+2025-07-17T00:25:00Z WINSEC EventID=4625 user=bjones host=DB01 FailureReason=BadPassword src=45.77.12.91
+2025-07-17T00:30:00Z WINSEC EventID=4740 Account Lockout user=svc_backup caller=45.77.12.91
+2025-07-17T00:35:00Z firewall: Port scan detected src=185.220.101.5 dst=10.0.1.168
+2025-07-17T00:40:00Z Apache access 198.51.100.62 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-17T00:45:00Z Apache access 198.51.100.78 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-17T00:50:00Z EDR MalwareDetected host=FINANCE-PC-04 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-17T00:55:00Z DNS query src=10.0.18.172 query=data503.tunnel-example.net
+2025-07-17T01:00:00Z VPN User=jsmith Connected src=198.18.3.165
+2025-07-17T01:05:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-17T01:10:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-17T01:15:00Z Proxy user=adoe url=http://malware5.ru/payload.exe action=blocked
+2025-07-17T01:20:00Z AWSConsole Login user=adoe srcip=185.220.101.5 result=Success
+2025-07-17T01:25:00Z DBAUDIT user=hruser action=SELECT table=customers rows=113
+2025-07-17T01:30:00Z EDR LateralMovement host=FINANCE-PC-04 tool=psexec.exe target=10.0.5.233
+2025-07-17T01:35:00Z EmailGW Delivered sender=alerts@company.com recipient=bjones@corp.local
+2025-07-17T01:40:00Z sshd[1500]: Failed password for admin from 185.220.101.5 port 58011
+2025-07-17T01:45:00Z sshd[1501]: Failed password for admin from 198.51.100.23 port 42609
+2025-07-17T01:50:00Z sshd[1502]: Failed password for admin from 198.51.100.23 port 35945
+2025-07-17T01:55:00Z sshd[1503]: Failed password for admin from 198.51.100.23 port 52410
+2025-07-17T02:00:00Z sshd[1504]: Accepted password for admin from 203.0.113.55 port 35969
+2025-07-17T02:05:00Z WINSEC EventID=4625 user=bjones host=WEB01 FailureReason=BadPassword src=45.77.12.91
+2025-07-17T02:10:00Z WINSEC EventID=4740 Account Lockout user=bjones caller=198.51.100.23
+2025-07-17T02:15:00Z firewall: Port scan detected src=203.0.113.55 dst=10.0.1.192
+2025-07-17T02:20:00Z Apache access 198.51.100.223 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-17T02:25:00Z Apache access 198.51.100.106 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-17T02:30:00Z EDR MalwareDetected host=FINANCE-PC-04 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-17T02:35:00Z DNS query src=10.0.14.191 query=data636.tunnel-example.net
+2025-07-17T02:40:00Z VPN User=adoe Connected src=198.18.7.70
+2025-07-17T02:45:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-17T02:50:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-17T02:55:00Z Proxy user=bjones url=http://malware49.ru/payload.exe action=blocked
+2025-07-17T03:00:00Z AWSConsole Login user=jsmith srcip=185.220.101.5 result=Success
+2025-07-17T03:05:00Z DBAUDIT user=bjones action=SELECT table=customers rows=295
+2025-07-17T03:10:00Z EDR LateralMovement host=DB01 tool=psexec.exe target=10.0.5.33
+2025-07-17T03:15:00Z EmailGW Delivered sender=alerts@company.com recipient=svc_backup@corp.local
+2025-07-17T03:20:00Z sshd[1520]: Failed password for admin from 198.51.100.23 port 36068
+2025-07-17T03:25:00Z sshd[1521]: Failed password for admin from 45.77.12.91 port 46282
+2025-07-17T03:30:00Z sshd[1522]: Failed password for admin from 185.220.101.5 port 56198
+2025-07-17T03:35:00Z sshd[1523]: Failed password for admin from 185.220.101.5 port 58300
+2025-07-17T03:40:00Z sshd[1524]: Accepted password for admin from 203.0.113.55 port 50448
+2025-07-17T03:45:00Z WINSEC EventID=4625 user=admin host=DC01 FailureReason=BadPassword src=198.51.100.23
+2025-07-17T03:50:00Z WINSEC EventID=4740 Account Lockout user=jsmith caller=185.220.101.5
+2025-07-17T03:55:00Z firewall: Port scan detected src=185.220.101.5 dst=10.0.1.248
+2025-07-17T04:00:00Z Apache access 198.51.100.151 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-17T04:05:00Z Apache access 198.51.100.126 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-17T04:10:00Z EDR MalwareDetected host=DC01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-17T04:15:00Z DNS query src=10.0.3.101 query=data945.tunnel-example.net
+2025-07-17T04:20:00Z VPN User=hruser Connected src=198.18.8.249
+2025-07-17T04:25:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-17T04:30:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-17T04:35:00Z Proxy user=finance1 url=http://malware16.ru/payload.exe action=blocked
+2025-07-17T04:40:00Z AWSConsole Login user=admin srcip=203.0.113.55 result=Success
+2025-07-17T04:45:00Z DBAUDIT user=adoe action=SELECT table=customers rows=80
+2025-07-17T04:50:00Z EDR LateralMovement host=WEB01 tool=psexec.exe target=10.0.5.134
+2025-07-17T04:55:00Z EmailGW Delivered sender=alerts@company.com recipient=svc_backup@corp.local
+2025-07-17T05:00:00Z sshd[1540]: Failed password for admin from 203.0.113.55 port 59971
+2025-07-17T05:05:00Z sshd[1541]: Failed password for admin from 203.0.113.55 port 32591
+2025-07-17T05:10:00Z sshd[1542]: Failed password for admin from 203.0.113.55 port 38234
+2025-07-17T05:15:00Z sshd[1543]: Failed password for admin from 198.51.100.23 port 32463
+2025-07-17T05:20:00Z sshd[1544]: Accepted password for admin from 203.0.113.55 port 49908
+2025-07-17T05:25:00Z WINSEC EventID=4625 user=adoe host=LNXAPP01 FailureReason=BadPassword src=45.77.12.91
+2025-07-17T05:30:00Z WINSEC EventID=4740 Account Lockout user=hruser caller=185.220.101.5
+2025-07-17T05:35:00Z firewall: Port scan detected src=203.0.113.55 dst=10.0.1.26
+2025-07-17T05:40:00Z Apache access 198.51.100.19 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-17T05:45:00Z Apache access 198.51.100.77 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-17T05:50:00Z EDR MalwareDetected host=VPNGW01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-17T05:55:00Z DNS query src=10.0.19.50 query=data497.tunnel-example.net
+2025-07-17T06:00:00Z VPN User=bjones Connected src=198.18.4.203
+2025-07-17T06:05:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-17T06:10:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-17T06:15:00Z Proxy user=hruser url=http://malware1.ru/payload.exe action=blocked
+2025-07-17T06:20:00Z AWSConsole Login user=jsmith srcip=45.77.12.91 result=Success
+2025-07-17T06:25:00Z DBAUDIT user=finance1 action=SELECT table=customers rows=143
+2025-07-17T06:30:00Z EDR LateralMovement host=DB01 tool=psexec.exe target=10.0.5.166
+2025-07-17T06:35:00Z EmailGW Delivered sender=alerts@company.com recipient=admin@corp.local
+2025-07-17T06:40:00Z sshd[1560]: Failed password for admin from 198.51.100.23 port 61149
+2025-07-17T06:45:00Z sshd[1561]: Failed password for admin from 198.51.100.23 port 46191
+2025-07-17T06:50:00Z sshd[1562]: Failed password for admin from 203.0.113.55 port 56988
+2025-07-17T06:55:00Z sshd[1563]: Failed password for admin from 45.77.12.91 port 33624
+2025-07-17T07:00:00Z sshd[1564]: Accepted password for admin from 203.0.113.55 port 31427
+2025-07-17T07:05:00Z WINSEC EventID=4625 user=adoe host=FINANCE-PC-04 FailureReason=BadPassword src=185.220.101.5
+2025-07-17T07:10:00Z WINSEC EventID=4740 Account Lockout user=jsmith caller=45.77.12.91
+2025-07-17T07:15:00Z firewall: Port scan detected src=198.51.100.23 dst=10.0.1.171
+2025-07-17T07:20:00Z Apache access 198.51.100.109 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-17T07:25:00Z Apache access 198.51.100.237 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-17T07:30:00Z EDR MalwareDetected host=DB01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-17T07:35:00Z DNS query src=10.0.8.127 query=data134.tunnel-example.net
+2025-07-17T07:40:00Z VPN User=svc_backup Connected src=198.18.6.184
+2025-07-17T07:45:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-17T07:50:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-17T07:55:00Z Proxy user=finance1 url=http://malware24.ru/payload.exe action=blocked
+2025-07-17T08:00:00Z AWSConsole Login user=svc_backup srcip=185.220.101.5 result=Success
+2025-07-17T08:05:00Z DBAUDIT user=adoe action=SELECT table=customers rows=4
+2025-07-17T08:10:00Z EDR LateralMovement host=DB01 tool=psexec.exe target=10.0.5.190
+2025-07-17T08:15:00Z EmailGW Delivered sender=alerts@company.com recipient=admin@corp.local
+2025-07-17T08:20:00Z sshd[1580]: Failed password for admin from 203.0.113.55 port 43449
+2025-07-17T08:25:00Z sshd[1581]: Failed password for admin from 185.220.101.5 port 43134
+2025-07-17T08:30:00Z sshd[1582]: Failed password for admin from 45.77.12.91 port 42709
+2025-07-17T08:35:00Z sshd[1583]: Failed password for admin from 198.51.100.23 port 60481
+2025-07-17T08:40:00Z sshd[1584]: Accepted password for admin from 203.0.113.55 port 44512
+2025-07-17T08:45:00Z WINSEC EventID=4625 user=bjones host=DB01 FailureReason=BadPassword src=203.0.113.55
+2025-07-17T08:50:00Z WINSEC EventID=4740 Account Lockout user=hruser caller=185.220.101.5
+2025-07-17T08:55:00Z firewall: Port scan detected src=198.51.100.23 dst=10.0.1.230
+2025-07-17T09:00:00Z Apache access 198.51.100.58 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-17T09:05:00Z Apache access 198.51.100.125 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-17T09:10:00Z EDR MalwareDetected host=FINANCE-PC-04 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-17T09:15:00Z DNS query src=10.0.2.243 query=data709.tunnel-example.net
+2025-07-17T09:20:00Z VPN User=adoe Connected src=198.18.7.14
+2025-07-17T09:25:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-17T09:30:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-17T09:35:00Z Proxy user=adoe url=http://malware2.ru/payload.exe action=blocked
+2025-07-17T09:40:00Z AWSConsole Login user=hruser srcip=198.51.100.23 result=Success
+2025-07-17T09:45:00Z DBAUDIT user=finance1 action=SELECT table=customers rows=27
+2025-07-17T09:50:00Z EDR LateralMovement host=LNXAPP01 tool=psexec.exe target=10.0.5.16
+2025-07-17T09:55:00Z EmailGW Delivered sender=alerts@company.com recipient=adoe@corp.local
+2025-07-17T10:00:00Z sshd[1600]: Failed password for admin from 185.220.101.5 port 59467
+2025-07-17T10:05:00Z sshd[1601]: Failed password for admin from 45.77.12.91 port 37419
+2025-07-17T10:10:00Z sshd[1602]: Failed password for admin from 203.0.113.55 port 40854
+2025-07-17T10:15:00Z sshd[1603]: Failed password for admin from 45.77.12.91 port 42496
+2025-07-17T10:20:00Z sshd[1604]: Accepted password for admin from 203.0.113.55 port 42157
+2025-07-17T10:25:00Z WINSEC EventID=4625 user=svc_backup host=VPNGW01 FailureReason=BadPassword src=185.220.101.5
+2025-07-17T10:30:00Z WINSEC EventID=4740 Account Lockout user=jsmith caller=45.77.12.91
+2025-07-17T10:35:00Z firewall: Port scan detected src=185.220.101.5 dst=10.0.1.215
+2025-07-17T10:40:00Z Apache access 198.51.100.96 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-17T10:45:00Z Apache access 198.51.100.253 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-17T10:50:00Z EDR MalwareDetected host=DB01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-17T10:55:00Z DNS query src=10.0.15.44 query=data211.tunnel-example.net
+2025-07-17T11:00:00Z VPN User=jsmith Connected src=198.18.2.72
+2025-07-17T11:05:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-17T11:10:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-17T11:15:00Z Proxy user=jsmith url=http://malware23.ru/payload.exe action=blocked
+2025-07-17T11:20:00Z AWSConsole Login user=finance1 srcip=203.0.113.55 result=Success
+2025-07-17T11:25:00Z DBAUDIT user=hruser action=SELECT table=customers rows=494
+2025-07-17T11:30:00Z EDR LateralMovement host=WEB01 tool=psexec.exe target=10.0.5.98
+2025-07-17T11:35:00Z EmailGW Delivered sender=alerts@company.com recipient=bjones@corp.local
+2025-07-17T11:40:00Z sshd[1620]: Failed password for admin from 45.77.12.91 port 58340
+2025-07-17T11:45:00Z sshd[1621]: Failed password for admin from 203.0.113.55 port 33228
+2025-07-17T11:50:00Z sshd[1622]: Failed password for admin from 185.220.101.5 port 42826
+2025-07-17T11:55:00Z sshd[1623]: Failed password for admin from 45.77.12.91 port 59251
+2025-07-17T12:00:00Z sshd[1624]: Accepted password for admin from 203.0.113.55 port 42650
+2025-07-17T12:05:00Z WINSEC EventID=4625 user=bjones host=DB01 FailureReason=BadPassword src=185.220.101.5
+2025-07-17T12:10:00Z WINSEC EventID=4740 Account Lockout user=jsmith caller=185.220.101.5
+2025-07-17T12:15:00Z firewall: Port scan detected src=198.51.100.23 dst=10.0.1.208
+2025-07-17T12:20:00Z Apache access 198.51.100.161 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-17T12:25:00Z Apache access 198.51.100.197 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-17T12:30:00Z EDR MalwareDetected host=FINANCE-PC-04 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-17T12:35:00Z DNS query src=10.0.2.97 query=data135.tunnel-example.net
+2025-07-17T12:40:00Z VPN User=finance1 Connected src=198.18.2.206
+2025-07-17T12:45:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-17T12:50:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-17T12:55:00Z Proxy user=jsmith url=http://malware17.ru/payload.exe action=blocked
+2025-07-17T13:00:00Z AWSConsole Login user=adoe srcip=203.0.113.55 result=Success
+2025-07-17T13:05:00Z DBAUDIT user=hruser action=SELECT table=customers rows=174
+2025-07-17T13:10:00Z EDR LateralMovement host=DB01 tool=psexec.exe target=10.0.5.70
+2025-07-17T13:15:00Z EmailGW Delivered sender=alerts@company.com recipient=bjones@corp.local
+2025-07-17T13:20:00Z sshd[1640]: Failed password for admin from 203.0.113.55 port 47181
+2025-07-17T13:25:00Z sshd[1641]: Failed password for admin from 45.77.12.91 port 48063
+2025-07-17T13:30:00Z sshd[1642]: Failed password for admin from 45.77.12.91 port 30247
+2025-07-17T13:35:00Z sshd[1643]: Failed password for admin from 203.0.113.55 port 31589
+2025-07-17T13:40:00Z sshd[1644]: Accepted password for admin from 203.0.113.55 port 45326
+2025-07-17T13:45:00Z WINSEC EventID=4625 user=jsmith host=FINANCE-PC-04 FailureReason=BadPassword src=185.220.101.5
+2025-07-17T13:50:00Z WINSEC EventID=4740 Account Lockout user=admin caller=185.220.101.5
+2025-07-17T13:55:00Z firewall: Port scan detected src=45.77.12.91 dst=10.0.1.234
+2025-07-17T14:00:00Z Apache access 198.51.100.111 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-17T14:05:00Z Apache access 198.51.100.209 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-17T14:10:00Z EDR MalwareDetected host=FINANCE-PC-04 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-17T14:15:00Z DNS query src=10.0.5.238 query=data608.tunnel-example.net
+2025-07-17T14:20:00Z VPN User=adoe Connected src=198.18.1.206
+2025-07-17T14:25:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-17T14:30:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-17T14:35:00Z Proxy user=svc_backup url=http://malware20.ru/payload.exe action=blocked
+2025-07-17T14:40:00Z AWSConsole Login user=admin srcip=198.51.100.23 result=Success
+2025-07-17T14:45:00Z DBAUDIT user=hruser action=SELECT table=customers rows=121
+2025-07-17T14:50:00Z EDR LateralMovement host=DB01 tool=psexec.exe target=10.0.5.221
+2025-07-17T14:55:00Z EmailGW Delivered sender=alerts@company.com recipient=bjones@corp.local
+2025-07-17T15:00:00Z sshd[1660]: Failed password for admin from 185.220.101.5 port 53714
+2025-07-17T15:05:00Z sshd[1661]: Failed password for admin from 203.0.113.55 port 63546
+2025-07-17T15:10:00Z sshd[1662]: Failed password for admin from 198.51.100.23 port 55669
+2025-07-17T15:15:00Z sshd[1663]: Failed password for admin from 198.51.100.23 port 46207
+2025-07-17T15:20:00Z sshd[1664]: Accepted password for admin from 203.0.113.55 port 56722
+2025-07-17T15:25:00Z WINSEC EventID=4625 user=jsmith host=LNXAPP01 FailureReason=BadPassword src=203.0.113.55
+2025-07-17T15:30:00Z WINSEC EventID=4740 Account Lockout user=finance1 caller=45.77.12.91
+2025-07-17T15:35:00Z firewall: Port scan detected src=198.51.100.23 dst=10.0.1.251
+2025-07-17T15:40:00Z Apache access 198.51.100.110 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-17T15:45:00Z Apache access 198.51.100.227 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-17T15:50:00Z EDR MalwareDetected host=DC01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-17T15:55:00Z DNS query src=10.0.3.68 query=data739.tunnel-example.net
+2025-07-17T16:00:00Z VPN User=jsmith Connected src=198.18.4.25
+2025-07-17T16:05:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-17T16:10:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-17T16:15:00Z Proxy user=finance1 url=http://malware32.ru/payload.exe action=blocked
+2025-07-17T16:20:00Z AWSConsole Login user=svc_backup srcip=185.220.101.5 result=Success
+2025-07-17T16:25:00Z DBAUDIT user=adoe action=SELECT table=customers rows=120
+2025-07-17T16:30:00Z EDR LateralMovement host=WEB01 tool=psexec.exe target=10.0.5.107
+2025-07-17T16:35:00Z EmailGW Delivered sender=alerts@company.com recipient=finance1@corp.local
+2025-07-17T16:40:00Z sshd[1680]: Failed password for admin from 198.51.100.23 port 37940
+2025-07-17T16:45:00Z sshd[1681]: Failed password for admin from 45.77.12.91 port 49253
+2025-07-17T16:50:00Z sshd[1682]: Failed password for admin from 45.77.12.91 port 47541
+2025-07-17T16:55:00Z sshd[1683]: Failed password for admin from 45.77.12.91 port 46649
+2025-07-17T17:00:00Z sshd[1684]: Accepted password for admin from 203.0.113.55 port 47061
+2025-07-17T17:05:00Z WINSEC EventID=4625 user=adoe host=FINANCE-PC-04 FailureReason=BadPassword src=198.51.100.23
+2025-07-17T17:10:00Z WINSEC EventID=4740 Account Lockout user=adoe caller=198.51.100.23
+2025-07-17T17:15:00Z firewall: Port scan detected src=198.51.100.23 dst=10.0.1.40
+2025-07-17T17:20:00Z Apache access 198.51.100.73 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-17T17:25:00Z Apache access 198.51.100.227 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-17T17:30:00Z EDR MalwareDetected host=VPNGW01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-17T17:35:00Z DNS query src=10.0.7.84 query=data166.tunnel-example.net
+2025-07-17T17:40:00Z VPN User=finance1 Connected src=198.18.5.63
+2025-07-17T17:45:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-17T17:50:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-17T17:55:00Z Proxy user=hruser url=http://malware34.ru/payload.exe action=blocked
+2025-07-17T18:00:00Z AWSConsole Login user=adoe srcip=203.0.113.55 result=Success
+2025-07-17T18:05:00Z DBAUDIT user=svc_backup action=SELECT table=customers rows=238
+2025-07-17T18:10:00Z EDR LateralMovement host=DC01 tool=psexec.exe target=10.0.5.27
+2025-07-17T18:15:00Z EmailGW Delivered sender=alerts@company.com recipient=jsmith@corp.local
+2025-07-17T18:20:00Z sshd[1700]: Failed password for admin from 185.220.101.5 port 45146
+2025-07-17T18:25:00Z sshd[1701]: Failed password for admin from 185.220.101.5 port 54502
+2025-07-17T18:30:00Z sshd[1702]: Failed password for admin from 203.0.113.55 port 49246
+2025-07-17T18:35:00Z sshd[1703]: Failed password for admin from 198.51.100.23 port 37812
+2025-07-17T18:40:00Z sshd[1704]: Accepted password for admin from 203.0.113.55 port 33302
+2025-07-17T18:45:00Z WINSEC EventID=4625 user=adoe host=VPNGW01 FailureReason=BadPassword src=198.51.100.23
+2025-07-17T18:50:00Z WINSEC EventID=4740 Account Lockout user=jsmith caller=45.77.12.91
+2025-07-17T18:55:00Z firewall: Port scan detected src=198.51.100.23 dst=10.0.1.115
+2025-07-17T19:00:00Z Apache access 198.51.100.155 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-17T19:05:00Z Apache access 198.51.100.67 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-17T19:10:00Z EDR MalwareDetected host=LNXAPP01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-17T19:15:00Z DNS query src=10.0.1.28 query=data752.tunnel-example.net
+2025-07-17T19:20:00Z VPN User=hruser Connected src=198.18.10.90
+2025-07-17T19:25:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-17T19:30:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-17T19:35:00Z Proxy user=adoe url=http://malware3.ru/payload.exe action=blocked
+2025-07-17T19:40:00Z AWSConsole Login user=bjones srcip=45.77.12.91 result=Success
+2025-07-17T19:45:00Z DBAUDIT user=adoe action=SELECT table=customers rows=23
+2025-07-17T19:50:00Z EDR LateralMovement host=WEB01 tool=psexec.exe target=10.0.5.66
+2025-07-17T19:55:00Z EmailGW Delivered sender=alerts@company.com recipient=jsmith@corp.local
+2025-07-17T20:00:00Z sshd[1720]: Failed password for admin from 198.51.100.23 port 30745
+2025-07-17T20:05:00Z sshd[1721]: Failed password for admin from 45.77.12.91 port 56803
+2025-07-17T20:10:00Z sshd[1722]: Failed password for admin from 45.77.12.91 port 42133
+2025-07-17T20:15:00Z sshd[1723]: Failed password for admin from 45.77.12.91 port 35107
+2025-07-17T20:20:00Z sshd[1724]: Accepted password for admin from 203.0.113.55 port 43330
+2025-07-17T20:25:00Z WINSEC EventID=4625 user=jsmith host=FINANCE-PC-04 FailureReason=BadPassword src=185.220.101.5
+2025-07-17T20:30:00Z WINSEC EventID=4740 Account Lockout user=jsmith caller=185.220.101.5
+2025-07-17T20:35:00Z firewall: Port scan detected src=203.0.113.55 dst=10.0.1.204
+2025-07-17T20:40:00Z Apache access 198.51.100.102 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-17T20:45:00Z Apache access 198.51.100.170 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-17T20:50:00Z EDR MalwareDetected host=VPNGW01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-17T20:55:00Z DNS query src=10.0.5.164 query=data646.tunnel-example.net
+2025-07-17T21:00:00Z VPN User=jsmith Connected src=198.18.3.102
+2025-07-17T21:05:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-17T21:10:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-17T21:15:00Z Proxy user=svc_backup url=http://malware18.ru/payload.exe action=blocked
+2025-07-17T21:20:00Z AWSConsole Login user=finance1 srcip=45.77.12.91 result=Success
+2025-07-17T21:25:00Z DBAUDIT user=svc_backup action=SELECT table=customers rows=158
+2025-07-17T21:30:00Z EDR LateralMovement host=FINANCE-PC-04 tool=psexec.exe target=10.0.5.245
+2025-07-17T21:35:00Z EmailGW Delivered sender=alerts@company.com recipient=jsmith@corp.local
+2025-07-17T21:40:00Z sshd[1740]: Failed password for admin from 45.77.12.91 port 53408
+2025-07-17T21:45:00Z sshd[1741]: Failed password for admin from 185.220.101.5 port 57292
+2025-07-17T21:50:00Z sshd[1742]: Failed password for admin from 203.0.113.55 port 53840
+2025-07-17T21:55:00Z sshd[1743]: Failed password for admin from 198.51.100.23 port 55606
+2025-07-17T22:00:00Z sshd[1744]: Accepted password for admin from 203.0.113.55 port 56540
+2025-07-17T22:05:00Z WINSEC EventID=4625 user=adoe host=DC01 FailureReason=BadPassword src=185.220.101.5
+2025-07-17T22:10:00Z WINSEC EventID=4740 Account Lockout user=adoe caller=185.220.101.5
+2025-07-17T22:15:00Z firewall: Port scan detected src=203.0.113.55 dst=10.0.1.211
+2025-07-17T22:20:00Z Apache access 198.51.100.24 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-17T22:25:00Z Apache access 198.51.100.104 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-17T22:30:00Z EDR MalwareDetected host=VPNGW01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-17T22:35:00Z DNS query src=10.0.12.118 query=data891.tunnel-example.net
+2025-07-17T22:40:00Z VPN User=adoe Connected src=198.18.3.4
+2025-07-17T22:45:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-17T22:50:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-17T22:55:00Z Proxy user=jsmith url=http://malware36.ru/payload.exe action=blocked
+2025-07-17T23:00:00Z AWSConsole Login user=adoe srcip=185.220.101.5 result=Success
+2025-07-17T23:05:00Z DBAUDIT user=jsmith action=SELECT table=customers rows=294
+2025-07-17T23:10:00Z EDR LateralMovement host=VPNGW01 tool=psexec.exe target=10.0.5.238
+2025-07-17T23:15:00Z EmailGW Delivered sender=alerts@company.com recipient=bjones@corp.local
+2025-07-17T23:20:00Z sshd[1760]: Failed password for admin from 198.51.100.23 port 39560
+2025-07-17T23:25:00Z sshd[1761]: Failed password for admin from 45.77.12.91 port 48566
+2025-07-17T23:30:00Z sshd[1762]: Failed password for admin from 198.51.100.23 port 64154
+2025-07-17T23:35:00Z sshd[1763]: Failed password for admin from 198.51.100.23 port 34397
+2025-07-17T23:40:00Z sshd[1764]: Accepted password for admin from 203.0.113.55 port 37129
+2025-07-17T23:45:00Z WINSEC EventID=4625 user=finance1 host=FINANCE-PC-04 FailureReason=BadPassword src=198.51.100.23
+2025-07-17T23:50:00Z WINSEC EventID=4740 Account Lockout user=bjones caller=198.51.100.23
+2025-07-17T23:55:00Z firewall: Port scan detected src=203.0.113.55 dst=10.0.1.250
+2025-07-18T00:00:00Z Apache access 198.51.100.234 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-18T00:05:00Z Apache access 198.51.100.124 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-18T00:10:00Z EDR MalwareDetected host=DB01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-18T00:15:00Z DNS query src=10.0.2.156 query=data751.tunnel-example.net
+2025-07-18T00:20:00Z VPN User=finance1 Connected src=198.18.2.232
+2025-07-18T00:25:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-18T00:30:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-18T00:35:00Z Proxy user=svc_backup url=http://malware40.ru/payload.exe action=blocked
+2025-07-18T00:40:00Z AWSConsole Login user=svc_backup srcip=198.51.100.23 result=Success
+2025-07-18T00:45:00Z DBAUDIT user=svc_backup action=SELECT table=customers rows=403
+2025-07-18T00:50:00Z EDR LateralMovement host=WEB01 tool=psexec.exe target=10.0.5.159
+2025-07-18T00:55:00Z EmailGW Delivered sender=alerts@company.com recipient=finance1@corp.local
+2025-07-18T01:00:00Z sshd[1780]: Failed password for admin from 198.51.100.23 port 60995
+2025-07-18T01:05:00Z sshd[1781]: Failed password for admin from 198.51.100.23 port 44295
+2025-07-18T01:10:00Z sshd[1782]: Failed password for admin from 203.0.113.55 port 56197
+2025-07-18T01:15:00Z sshd[1783]: Failed password for admin from 198.51.100.23 port 55138
+2025-07-18T01:20:00Z sshd[1784]: Accepted password for admin from 203.0.113.55 port 53541
+2025-07-18T01:25:00Z WINSEC EventID=4625 user=jsmith host=WEB01 FailureReason=BadPassword src=198.51.100.23
+2025-07-18T01:30:00Z WINSEC EventID=4740 Account Lockout user=svc_backup caller=198.51.100.23
+2025-07-18T01:35:00Z firewall: Port scan detected src=203.0.113.55 dst=10.0.1.227
+2025-07-18T01:40:00Z Apache access 198.51.100.144 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-18T01:45:00Z Apache access 198.51.100.216 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-18T01:50:00Z EDR MalwareDetected host=LNXAPP01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-18T01:55:00Z DNS query src=10.0.2.171 query=data958.tunnel-example.net
+2025-07-18T02:00:00Z VPN User=bjones Connected src=198.18.2.100
+2025-07-18T02:05:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-18T02:10:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-18T02:15:00Z Proxy user=hruser url=http://malware30.ru/payload.exe action=blocked
+2025-07-18T02:20:00Z AWSConsole Login user=hruser srcip=45.77.12.91 result=Success
+2025-07-18T02:25:00Z DBAUDIT user=svc_backup action=SELECT table=customers rows=216
+2025-07-18T02:30:00Z EDR LateralMovement host=DB01 tool=psexec.exe target=10.0.5.150
+2025-07-18T02:35:00Z EmailGW Delivered sender=alerts@company.com recipient=adoe@corp.local
+2025-07-18T02:40:00Z sshd[1800]: Failed password for admin from 185.220.101.5 port 55507
+2025-07-18T02:45:00Z sshd[1801]: Failed password for admin from 45.77.12.91 port 59280
+2025-07-18T02:50:00Z sshd[1802]: Failed password for admin from 185.220.101.5 port 41715
+2025-07-18T02:55:00Z sshd[1803]: Failed password for admin from 203.0.113.55 port 30229
+2025-07-18T03:00:00Z sshd[1804]: Accepted password for admin from 203.0.113.55 port 62079
+2025-07-18T03:05:00Z WINSEC EventID=4625 user=finance1 host=WEB01 FailureReason=BadPassword src=185.220.101.5
+2025-07-18T03:10:00Z WINSEC EventID=4740 Account Lockout user=admin caller=185.220.101.5
+2025-07-18T03:15:00Z firewall: Port scan detected src=198.51.100.23 dst=10.0.1.208
+2025-07-18T03:20:00Z Apache access 198.51.100.122 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-18T03:25:00Z Apache access 198.51.100.103 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-18T03:30:00Z EDR MalwareDetected host=DC01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-18T03:35:00Z DNS query src=10.0.3.33 query=data467.tunnel-example.net
+2025-07-18T03:40:00Z VPN User=finance1 Connected src=198.18.6.24
+2025-07-18T03:45:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-18T03:50:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-18T03:55:00Z Proxy user=admin url=http://malware29.ru/payload.exe action=blocked
+2025-07-18T04:00:00Z AWSConsole Login user=hruser srcip=203.0.113.55 result=Success
+2025-07-18T04:05:00Z DBAUDIT user=jsmith action=SELECT table=customers rows=326
+2025-07-18T04:10:00Z EDR LateralMovement host=WEB01 tool=psexec.exe target=10.0.5.22
+2025-07-18T04:15:00Z EmailGW Delivered sender=alerts@company.com recipient=svc_backup@corp.local
+2025-07-18T04:20:00Z sshd[1820]: Failed password for admin from 45.77.12.91 port 63520
+2025-07-18T04:25:00Z sshd[1821]: Failed password for admin from 203.0.113.55 port 33556
+2025-07-18T04:30:00Z sshd[1822]: Failed password for admin from 185.220.101.5 port 38925
+2025-07-18T04:35:00Z sshd[1823]: Failed password for admin from 203.0.113.55 port 34350
+2025-07-18T04:40:00Z sshd[1824]: Accepted password for admin from 203.0.113.55 port 37181
+2025-07-18T04:45:00Z WINSEC EventID=4625 user=adoe host=WEB01 FailureReason=BadPassword src=185.220.101.5
+2025-07-18T04:50:00Z WINSEC EventID=4740 Account Lockout user=bjones caller=198.51.100.23
+2025-07-18T04:55:00Z firewall: Port scan detected src=198.51.100.23 dst=10.0.1.17
+2025-07-18T05:00:00Z Apache access 198.51.100.214 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-18T05:05:00Z Apache access 198.51.100.90 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-18T05:10:00Z EDR MalwareDetected host=VPNGW01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-18T05:15:00Z DNS query src=10.0.9.41 query=data431.tunnel-example.net
+2025-07-18T05:20:00Z VPN User=hruser Connected src=198.18.5.232
+2025-07-18T05:25:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-18T05:30:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-18T05:35:00Z Proxy user=admin url=http://malware30.ru/payload.exe action=blocked
+2025-07-18T05:40:00Z AWSConsole Login user=adoe srcip=45.77.12.91 result=Success
+2025-07-18T05:45:00Z DBAUDIT user=hruser action=SELECT table=customers rows=494
+2025-07-18T05:50:00Z EDR LateralMovement host=FINANCE-PC-04 tool=psexec.exe target=10.0.5.54
+2025-07-18T05:55:00Z EmailGW Delivered sender=alerts@company.com recipient=hruser@corp.local
+2025-07-18T06:00:00Z sshd[1840]: Failed password for admin from 45.77.12.91 port 63161
+2025-07-18T06:05:00Z sshd[1841]: Failed password for admin from 198.51.100.23 port 50911
+2025-07-18T06:10:00Z sshd[1842]: Failed password for admin from 45.77.12.91 port 32413
+2025-07-18T06:15:00Z sshd[1843]: Failed password for admin from 198.51.100.23 port 41933
+2025-07-18T06:20:00Z sshd[1844]: Accepted password for admin from 203.0.113.55 port 56441
+2025-07-18T06:25:00Z WINSEC EventID=4625 user=adoe host=LNXAPP01 FailureReason=BadPassword src=45.77.12.91
+2025-07-18T06:30:00Z WINSEC EventID=4740 Account Lockout user=svc_backup caller=45.77.12.91
+2025-07-18T06:35:00Z firewall: Port scan detected src=185.220.101.5 dst=10.0.1.44
+2025-07-18T06:40:00Z Apache access 198.51.100.203 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-18T06:45:00Z Apache access 198.51.100.201 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-18T06:50:00Z EDR MalwareDetected host=DB01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-18T06:55:00Z DNS query src=10.0.4.197 query=data643.tunnel-example.net
+2025-07-18T07:00:00Z VPN User=jsmith Connected src=198.18.6.248
+2025-07-18T07:05:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-18T07:10:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-18T07:15:00Z Proxy user=admin url=http://malware29.ru/payload.exe action=blocked
+2025-07-18T07:20:00Z AWSConsole Login user=hruser srcip=203.0.113.55 result=Success
+2025-07-18T07:25:00Z DBAUDIT user=bjones action=SELECT table=customers rows=275
+2025-07-18T07:30:00Z EDR LateralMovement host=LNXAPP01 tool=psexec.exe target=10.0.5.220
+2025-07-18T07:35:00Z EmailGW Delivered sender=alerts@company.com recipient=finance1@corp.local
+2025-07-18T07:40:00Z sshd[1860]: Failed password for admin from 45.77.12.91 port 47350
+2025-07-18T07:45:00Z sshd[1861]: Failed password for admin from 185.220.101.5 port 54179
+2025-07-18T07:50:00Z sshd[1862]: Failed password for admin from 198.51.100.23 port 53609
+2025-07-18T07:55:00Z sshd[1863]: Failed password for admin from 45.77.12.91 port 35333
+2025-07-18T08:00:00Z sshd[1864]: Accepted password for admin from 203.0.113.55 port 58985
+2025-07-18T08:05:00Z WINSEC EventID=4625 user=adoe host=WEB01 FailureReason=BadPassword src=203.0.113.55
+2025-07-18T08:10:00Z WINSEC EventID=4740 Account Lockout user=bjones caller=45.77.12.91
+2025-07-18T08:15:00Z firewall: Port scan detected src=45.77.12.91 dst=10.0.1.164
+2025-07-18T08:20:00Z Apache access 198.51.100.248 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-18T08:25:00Z Apache access 198.51.100.252 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-18T08:30:00Z EDR MalwareDetected host=VPNGW01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-18T08:35:00Z DNS query src=10.0.11.188 query=data101.tunnel-example.net
+2025-07-18T08:40:00Z VPN User=svc_backup Connected src=198.18.1.57
+2025-07-18T08:45:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-18T08:50:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-18T08:55:00Z Proxy user=adoe url=http://malware19.ru/payload.exe action=blocked
+2025-07-18T09:00:00Z AWSConsole Login user=hruser srcip=185.220.101.5 result=Success
+2025-07-18T09:05:00Z DBAUDIT user=finance1 action=SELECT table=customers rows=263
+2025-07-18T09:10:00Z EDR LateralMovement host=DB01 tool=psexec.exe target=10.0.5.230
+2025-07-18T09:15:00Z EmailGW Delivered sender=alerts@company.com recipient=jsmith@corp.local
+2025-07-18T09:20:00Z sshd[1880]: Failed password for admin from 198.51.100.23 port 62007
+2025-07-18T09:25:00Z sshd[1881]: Failed password for admin from 198.51.100.23 port 32987
+2025-07-18T09:30:00Z sshd[1882]: Failed password for admin from 203.0.113.55 port 33564
+2025-07-18T09:35:00Z sshd[1883]: Failed password for admin from 203.0.113.55 port 53262
+2025-07-18T09:40:00Z sshd[1884]: Accepted password for admin from 203.0.113.55 port 49905
+2025-07-18T09:45:00Z WINSEC EventID=4625 user=jsmith host=VPNGW01 FailureReason=BadPassword src=45.77.12.91
+2025-07-18T09:50:00Z WINSEC EventID=4740 Account Lockout user=hruser caller=198.51.100.23
+2025-07-18T09:55:00Z firewall: Port scan detected src=185.220.101.5 dst=10.0.1.150
+2025-07-18T10:00:00Z Apache access 198.51.100.78 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-18T10:05:00Z Apache access 198.51.100.151 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-18T10:10:00Z EDR MalwareDetected host=WEB01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-18T10:15:00Z DNS query src=10.0.7.94 query=data738.tunnel-example.net
+2025-07-18T10:20:00Z VPN User=admin Connected src=198.18.8.41
+2025-07-18T10:25:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-18T10:30:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-18T10:35:00Z Proxy user=adoe url=http://malware1.ru/payload.exe action=blocked
+2025-07-18T10:40:00Z AWSConsole Login user=admin srcip=198.51.100.23 result=Success
+2025-07-18T10:45:00Z DBAUDIT user=svc_backup action=SELECT table=customers rows=77
+2025-07-18T10:50:00Z EDR LateralMovement host=FINANCE-PC-04 tool=psexec.exe target=10.0.5.25
+2025-07-18T10:55:00Z EmailGW Delivered sender=alerts@company.com recipient=jsmith@corp.local
+2025-07-18T11:00:00Z sshd[1900]: Failed password for admin from 198.51.100.23 port 47679
+2025-07-18T11:05:00Z sshd[1901]: Failed password for admin from 185.220.101.5 port 47317
+2025-07-18T11:10:00Z sshd[1902]: Failed password for admin from 203.0.113.55 port 33678
+2025-07-18T11:15:00Z sshd[1903]: Failed password for admin from 45.77.12.91 port 59081
+2025-07-18T11:20:00Z sshd[1904]: Accepted password for admin from 203.0.113.55 port 63920
+2025-07-18T11:25:00Z WINSEC EventID=4625 user=svc_backup host=FINANCE-PC-04 FailureReason=BadPassword src=198.51.100.23
+2025-07-18T11:30:00Z WINSEC EventID=4740 Account Lockout user=adoe caller=203.0.113.55
+2025-07-18T11:35:00Z firewall: Port scan detected src=203.0.113.55 dst=10.0.1.16
+2025-07-18T11:40:00Z Apache access 198.51.100.137 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-18T11:45:00Z Apache access 198.51.100.7 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-18T11:50:00Z EDR MalwareDetected host=FINANCE-PC-04 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-18T11:55:00Z DNS query src=10.0.6.61 query=data263.tunnel-example.net
+2025-07-18T12:00:00Z VPN User=jsmith Connected src=198.18.2.4
+2025-07-18T12:05:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-18T12:10:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-18T12:15:00Z Proxy user=hruser url=http://malware36.ru/payload.exe action=blocked
+2025-07-18T12:20:00Z AWSConsole Login user=svc_backup srcip=198.51.100.23 result=Success
+2025-07-18T12:25:00Z DBAUDIT user=adoe action=SELECT table=customers rows=212
+2025-07-18T12:30:00Z EDR LateralMovement host=WEB01 tool=psexec.exe target=10.0.5.133
+2025-07-18T12:35:00Z EmailGW Delivered sender=alerts@company.com recipient=hruser@corp.local
+2025-07-18T12:40:00Z sshd[1920]: Failed password for admin from 185.220.101.5 port 41445
+2025-07-18T12:45:00Z sshd[1921]: Failed password for admin from 45.77.12.91 port 34179
+2025-07-18T12:50:00Z sshd[1922]: Failed password for admin from 45.77.12.91 port 33177
+2025-07-18T12:55:00Z sshd[1923]: Failed password for admin from 185.220.101.5 port 30416
+2025-07-18T13:00:00Z sshd[1924]: Accepted password for admin from 203.0.113.55 port 54586
+2025-07-18T13:05:00Z WINSEC EventID=4625 user=admin host=FINANCE-PC-04 FailureReason=BadPassword src=185.220.101.5
+2025-07-18T13:10:00Z WINSEC EventID=4740 Account Lockout user=jsmith caller=185.220.101.5
+2025-07-18T13:15:00Z firewall: Port scan detected src=198.51.100.23 dst=10.0.1.58
+2025-07-18T13:20:00Z Apache access 198.51.100.27 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-18T13:25:00Z Apache access 198.51.100.67 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-18T13:30:00Z EDR MalwareDetected host=WEB01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-18T13:35:00Z DNS query src=10.0.2.32 query=data443.tunnel-example.net
+2025-07-18T13:40:00Z VPN User=svc_backup Connected src=198.18.5.183
+2025-07-18T13:45:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-18T13:50:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-18T13:55:00Z Proxy user=jsmith url=http://malware18.ru/payload.exe action=blocked
+2025-07-18T14:00:00Z AWSConsole Login user=svc_backup srcip=185.220.101.5 result=Success
+2025-07-18T14:05:00Z DBAUDIT user=svc_backup action=SELECT table=customers rows=404
+2025-07-18T14:10:00Z EDR LateralMovement host=VPNGW01 tool=psexec.exe target=10.0.5.249
+2025-07-18T14:15:00Z EmailGW Delivered sender=alerts@company.com recipient=bjones@corp.local
+2025-07-18T14:20:00Z sshd[1940]: Failed password for admin from 45.77.12.91 port 44221
+2025-07-18T14:25:00Z sshd[1941]: Failed password for admin from 203.0.113.55 port 63254
+2025-07-18T14:30:00Z sshd[1942]: Failed password for admin from 203.0.113.55 port 41126
+2025-07-18T14:35:00Z sshd[1943]: Failed password for admin from 45.77.12.91 port 45473
+2025-07-18T14:40:00Z sshd[1944]: Accepted password for admin from 203.0.113.55 port 43289
+2025-07-18T14:45:00Z WINSEC EventID=4625 user=adoe host=LNXAPP01 FailureReason=BadPassword src=45.77.12.91
+2025-07-18T14:50:00Z WINSEC EventID=4740 Account Lockout user=adoe caller=185.220.101.5
+2025-07-18T14:55:00Z firewall: Port scan detected src=45.77.12.91 dst=10.0.1.154
+2025-07-18T15:00:00Z Apache access 198.51.100.62 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-18T15:05:00Z Apache access 198.51.100.98 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-18T15:10:00Z EDR MalwareDetected host=LNXAPP01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-18T15:15:00Z DNS query src=10.0.18.121 query=data583.tunnel-example.net
+2025-07-18T15:20:00Z VPN User=admin Connected src=198.18.9.179
+2025-07-18T15:25:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-18T15:30:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-18T15:35:00Z Proxy user=jsmith url=http://malware2.ru/payload.exe action=blocked
+2025-07-18T15:40:00Z AWSConsole Login user=finance1 srcip=198.51.100.23 result=Success
+2025-07-18T15:45:00Z DBAUDIT user=hruser action=SELECT table=customers rows=453
+2025-07-18T15:50:00Z EDR LateralMovement host=DB01 tool=psexec.exe target=10.0.5.203
+2025-07-18T15:55:00Z EDR RansomwareBehavior host=FINANCE-PC-04 process=encryptor.exe file_changes=1368
+2025-07-18T16:00:00Z sshd[1960]: Failed password for admin from 185.220.101.5 port 35098
+2025-07-18T16:05:00Z sshd[1961]: Failed password for admin from 198.51.100.23 port 39476
+2025-07-18T16:10:00Z sshd[1962]: Failed password for admin from 203.0.113.55 port 31763
+2025-07-18T16:15:00Z sshd[1963]: Failed password for admin from 203.0.113.55 port 36991
+2025-07-18T16:20:00Z sshd[1964]: Accepted password for admin from 203.0.113.55 port 40604
+2025-07-18T16:25:00Z WINSEC EventID=4625 user=bjones host=WEB01 FailureReason=BadPassword src=203.0.113.55
+2025-07-18T16:30:00Z WINSEC EventID=4740 Account Lockout user=jsmith caller=203.0.113.55
+2025-07-18T16:35:00Z firewall: Port scan detected src=198.51.100.23 dst=10.0.1.178
+2025-07-18T16:40:00Z Apache access 198.51.100.165 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-18T16:45:00Z Apache access 198.51.100.163 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-18T16:50:00Z EDR MalwareDetected host=DC01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-18T16:55:00Z DNS query src=10.0.3.189 query=data147.tunnel-example.net
+2025-07-18T17:00:00Z VPN User=jsmith Connected src=198.18.10.196
+2025-07-18T17:05:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-18T17:10:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-18T17:15:00Z Proxy user=bjones url=http://malware13.ru/payload.exe action=blocked
+2025-07-18T17:20:00Z AWSConsole Login user=admin srcip=203.0.113.55 result=Success
+2025-07-18T17:25:00Z DBAUDIT user=admin action=SELECT table=customers rows=387
+2025-07-18T17:30:00Z EDR LateralMovement host=LNXAPP01 tool=psexec.exe target=10.0.5.242
+2025-07-18T17:35:00Z EDR RansomwareBehavior host=FINANCE-PC-04 process=encryptor.exe file_changes=2072
+2025-07-18T17:40:00Z sshd[1980]: Failed password for admin from 203.0.113.55 port 46159
+2025-07-18T17:45:00Z sshd[1981]: Failed password for admin from 198.51.100.23 port 43314
+2025-07-18T17:50:00Z sshd[1982]: Failed password for admin from 203.0.113.55 port 32219
+2025-07-18T17:55:00Z sshd[1983]: Failed password for admin from 203.0.113.55 port 35732
+2025-07-18T18:00:00Z sshd[1984]: Accepted password for admin from 203.0.113.55 port 48832
+2025-07-18T18:05:00Z WINSEC EventID=4625 user=finance1 host=DC01 FailureReason=BadPassword src=198.51.100.23
+2025-07-18T18:10:00Z WINSEC EventID=4740 Account Lockout user=jsmith caller=198.51.100.23
+2025-07-18T18:15:00Z firewall: Port scan detected src=45.77.12.91 dst=10.0.1.82
+2025-07-18T18:20:00Z Apache access 198.51.100.87 "GET /admin.php?id=1' OR '1'='1 HTTP/1.1" 403
+2025-07-18T18:25:00Z Apache access 198.51.100.109 "GET /search?q=<script>alert(1)</script> HTTP/1.1" 403
+2025-07-18T18:30:00Z EDR MalwareDetected host=DB01 file=C:\Users\Public\invoice.exe threat=Trojan.Generic
+2025-07-18T18:35:00Z DNS query src=10.0.1.90 query=data362.tunnel-example.net
+2025-07-18T18:40:00Z VPN User=bjones Connected src=198.18.1.184
+2025-07-18T18:45:00Z AD EventID=4728 User=admin AddedMember=tempuser Group=Domain Admins
+2025-07-18T18:50:00Z WINSEC EventID=4672 Special privileges assigned to new logon User=admin
+2025-07-18T18:55:00Z Proxy user=admin url=http://malware24.ru/payload.exe action=blocked
+2025-07-18T19:00:00Z AWSConsole Login user=bjones srcip=185.220.101.5 result=Success
+2025-07-18T19:05:00Z DBAUDIT user=admin action=SELECT table=customers rows=148
+2025-07-18T19:10:00Z EDR LateralMovement host=VPNGW01 tool=psexec.exe target=10.0.5.191
+2025-07-18T19:15:00Z EDR RansomwareBehavior host=FINANCE-PC-04 process=encryptor.exe file_changes=626

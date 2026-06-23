@@ -1,0 +1,5 @@
+streamlit
+pandas
+splunk-sdk
+google-generativeai
+python-dotenv
